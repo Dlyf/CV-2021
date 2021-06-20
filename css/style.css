@@ -1,3 +1,38 @@
 h1 {
     background-color: unset;
 }
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.portfolio {
+    background-color: #B7B12E;
+	color: normal;
+	font-size: 1.1em;
+	line-height: 2;
+}
+
+.portfolio article {
+	float: left;
+	width: 33%;
+	margin: 0;
+	padding: 3%;
+	text-align: center;
+}
+
+.portfolio img {
+	width: 200px;
+}
+
+footer {
+	background-color: #49c3b4;
+	margin: 0;
+	padding: 50px;
+}
+
+footer p {
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+}

@@ -1,15 +1,107 @@
-h1 {
-    background-color: unset;
+:root{
+	font-family: Arial, Helvetica, sans-serif;
+	--header-footer-bg: #003060;
+	--header-footer-font: white;
+	--body-bg: #68BBE3;
+	--main-bg: #0E86D4;
+	--size-navitem: 2rem;
+
+	/* Navy Blue
+#003060
+
+Blue
+#055C9D
+
+Blue Grotto
+#0E86D4
+
+Baby Blue
+#68BBE3 */
 }
 
+h1 {
+    background-color: unset;
+	
+}
+h1,h2,h3,h4,h5,h6:first-letter  {
+    text-transform: capitalize;
+}
+
+img {
+	max-width: 5%;
+}
+
+/* header */
+span {
+	text-transform: uppercase;
+}
+header > div > h1 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+header > div > p {
+	text-align: center;
+	padding-top: 17px;
+	margin-bottom: 40px;
+}
+/* body */
+body {
+	background-color: var(--body-bg);
+	text-align: left;
+}
+
+body header {
+	background-color: var(--header-footer-bg);
+	color: var(--header-footer-font);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body > nav {
+	margin-bottom: 20px;
+}
+
+body  nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: var(--header-footer-bg);
+	color: var(--header-footer-font);
+}
+
+body > nav ul li a, body > nav ul li a:visited{
+    display: block;
+    line-height: var(--size-navitem);
+    color: var(--header-footer-font);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 15px;
+}
+
+body > nav ul li a:hover, body > nav ul li a:focus{
+    background-color: var(--header-footer-font);
+    color: var(--header-footer-bg);
+}
+/* main */
+
+/* moi */
+
+/* Compétences */
+
+/* portfolio */
 .container {
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
 .portfolio {
-    background-color: #B7B12E;
-	color: normal;
+    background-color: var(--main-bg);
+	/* color: normal; */
 	font-size: 1.1em;
 	line-height: 2;
 }
@@ -26,8 +118,13 @@ h1 {
 	width: 200px;
 }
 
+/* scolarite */
+
+/* Centres d'intérêt */
+
+/* Footer */
 footer {
-	background-color: #49c3b4;
+	background-color: var(--header-footer-bg);
 	margin: 0;
 	padding: 50px;
 }

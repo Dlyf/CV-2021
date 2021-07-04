@@ -2,8 +2,10 @@
 	font-family: Arial, Helvetica, sans-serif;
 	--header-footer-bg: #003060;
 	--header-footer-font: white;
-	--body-bg: #68BBE3;
+	--body-bg: #F3F2EF;
 	--main-bg: #0E86D4;
+	--Nav-bg: #68BBE3;
+	--nav-color: #333333;
 	--size-navitem: 2rem;
 
 	/* Navy Blue
@@ -54,6 +56,7 @@ header > div > p {
 body {
 	background-color: var(--body-bg);
 	text-align: left;
+	font-size: 20px;
 }
 
 body header {
@@ -66,6 +69,7 @@ body header {
 
 body > nav {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 body  nav ul {
@@ -74,15 +78,19 @@ body  nav ul {
 	align-items: stretch;
 	list-style: none;
 	margin: 0;
-	padding: 0;
-	background-color: var(--header-footer-bg);
+	padding: 10px;
+	background-color: var(--Nav-bg);
 	color: var(--header-footer-font);
+}
+
+body > nav ul li a {
+	color: var(--nav-color);
 }
 
 body > nav ul li a, body > nav ul li a:visited{
     display: block;
     line-height: var(--size-navitem);
-    color: var(--header-footer-font);
+	color: var(--nav-color);
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -92,6 +100,7 @@ body > nav ul li a, body > nav ul li a:visited{
 body > nav ul li a:hover, body > nav ul li a:focus{
     background-color: var(--header-footer-font);
     color: var(--header-footer-bg);
+	color: var(--nav-color);
 }
 /* main */
 .profil {

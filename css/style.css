@@ -142,6 +142,25 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 
 /* scolarite */
 
+ .test {
+	display: flex;
+	flex-direction: row;
+	/* width: 33%; */
+	width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: grey 8px 10px 4px -8px;
+}
+
+.test > p {
+	font-size: 2rem;
+}
 /* Centres d'intérêt */
 
 /* Footer */

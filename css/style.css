@@ -54,6 +54,7 @@ header > div > p {
 }
 /* body */
 body {
+	margin:0;
 	background-color: var(--body-bg);
 	text-align: left;
 	font-size: 20px;
@@ -103,20 +104,35 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 	color: var(--nav-color);
 }
 /* main */
-.profil {
+/* .profil {
 	margin: 10px;
 	padding: 10px;
 }
 
 .profil > p {
 	text-align: left;
-}
+} */
 /* moi */
 
 /* Compétences */
+/* section.skills {
+	
+	text-align: center;
+	margin: 50px 40px 50px 40px;
+	padding: 20px 0px 20px 40px;
+	border-radius: 3%;
+	border: 1px solid var(--main-bg);
+	background-color: var(--body-bg);
+}
 
+section.skills img {
+	
+	margin: 25px;
+	border-radius: 50%;
+	border: 1px solid black;
+} */
 /* portfolio */
-.container {
+/* .container {
 	max-width: 1100px;
 	margin: 0 auto;
 }
@@ -124,11 +140,11 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 .portfolio {
     background-color: var(--main-bg);
 	/* color: normal; */
-	font-size: 1.1em;
+	/* font-size: 1.1em;
 	line-height: 2;
-}
+} */
 
-.portfolio article {
+/* .portfolio article {
 	float: left;
 	width: 33%;
 	margin: 0;
@@ -138,15 +154,15 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 
 .portfolio img {
 	width: 200px;
-}
+} */
 
 /* scolarite */
 
- .test {
+ /* .test {
 	display: flex;
 	flex-direction: row;
 	/* width: 33%; */
-	width: 25%;
+	/* width: 25%;
     margin: 0 auto;
     text-align: center;
     padding: 0;
@@ -160,11 +176,68 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 
 .test > p {
 	font-size: 2rem;
-}
-/* Centres d'intérêt */
+} */
 
+/* EDUCATION */
+/* #education
+{
+    background: #ECEEF2;
+}
+#education .heading h2
+{
+    color: #d82c2e;
+}
+.education-block
+{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 30px;
+		background: #fff;
+		border-radius: 0;
+		border: 1px solid #ccc;
+		height: 385px;
+		margin-bottom: 20px;
+		box-shadow: grey 8px 10px 4px -8px;
+}
+
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+		font-family: 'Slabo 27px', sans-serif;
+}
+.education-block .glyphicon
+{
+    font-size: 40px;
+}
+.education-block h3
+{
+     color: #d82c2e;
+		 font-family: 'Slabo 27px', sans-serif;
+}
+.education-block h4
+{
+   margin-bottom: 20px;
+	 font-family: 'Cardo', serif;
+
+}
+.education-block p
+{
+  font-weight: bold;
+
+}
+.education-block .red-divider
+{
+    margin-bottom: 20px;
+} */
+/* Centres d'intérêt */
+/* section.hobbies {
+	background-color: var(--main-bg);
+} */
 /* Footer */
-footer {
+/* footer {
 	background-color: var(--header-footer-bg);
 	margin: 0;
 	padding: 50px;
@@ -173,4 +246,8 @@ footer {
 footer p {
 	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
-}
+} */
+
+/* @media(min-width:900px){
+    body > nav 
+} */

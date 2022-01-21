@@ -115,7 +115,16 @@ body > nav ul li a:hover, body > nav ul li a:focus {
 
 /* footer */
 footer {
+	padding: 20px;
 	text-align: center;
+	background-color: var(--header-footer-bg);
+	color: white;
+
+	display: block;
+}
+
+.footer-lastname {
+	text-transform: uppercase;
 }
 .social-icons {
 	margin: 0 60px 15px 0;
@@ -133,17 +142,35 @@ footer {
 
 .social-icons a.linkedin:hover {
 	background-position: -336px -84px;
+	
 	/* border-radius: 50%; */
 }
-.github .fa-github {
+.fa-github {
+	/* top: 50%; */
+	/* left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	/* transition: .5s; */
 	font-size: 37px;
-    position: absolute;
+    /* position: absolute; */
     margin: -80px 0 0 40px;
+
+	color: gray;
+	position: absolute;
+	
+	/* margin: 0 20px; */
+	/* padding:10px; */
+    
+	
 }
 
-a.github {
-	color: gray;
+.fa-github:hover {
+	border-radius: 50%;
+	border: 10px solid black;
 }
+
+
+
+
 
 
 /* Extra small devices (portrait phones, less than 576px) */

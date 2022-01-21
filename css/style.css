@@ -22,6 +22,8 @@ Baby Blue
 }
 
 * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 
 }
@@ -125,6 +127,9 @@ body > nav ul li a:hover, body > nav ul li a:focus {
         flex-direction:column;
         justify-content: space-between;
     }
+	.fa-home, .fa-check, .fa-folder, .fa-school, .fa-laptop-house {
+		display: none;
+	}
 
 }
 

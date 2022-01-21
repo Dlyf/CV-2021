@@ -113,6 +113,24 @@ body > nav ul li a:hover, body > nav ul li a:focus {
 	
 }
 
+/* main */
+h2 {
+	width: 50%;
+    text-align: center;
+    margin: 50px auto;
+	margin-top:50px;
+	display:flex;
+	background:linear-gradient(to left,gray,#68BBE3,#0E86D4,#055C9D, #003060);;
+}
+
+h2:before, h2:after {
+color:white;
+content:'';
+flex:1;
+border-bottom:groove 2px;
+margin:auto 0.25em;
+box-shadow: 0 -1px ;/* ou 0 1px si border-style:ridge */
+}
 /* footer */
 footer {
 	padding: 20px;

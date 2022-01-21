@@ -21,7 +21,128 @@ Baby Blue
 #68BBE3 */
 }
 
-h1 {
+* {
+	box-sizing: border-box;
+
+}
+/* ------ Début Header ------ */
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+.title {
+	color: white;
+	font-size: 1.5rem;
+	background-color: var(--header-footer-bg);
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	overflow: hidden;
+  line-height: 2em;
+}
+
+.title > h1 {
+	text-transform: capitalize;
+}
+
+.title > h1 span {
+	text-transform: uppercase;
+}
+
+.title > div {
+	font-size: initial;
+	text-transform: capitalize;
+}
+
+.title .dashed:after {
+	content: "-"
+}
+
+/* menu nav  */
+
+body > nav{
+    margin-bottom: 20px;
+}
+
+body > nav ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: var(--header-footer-font);
+}
+
+/* body > nav a i {
+	
+} */
+body > nav ul li a, body > nav ul li a:visited{
+    display: block;
+    line-height: var(--size-navitem);
+    color: var(--header-footer-font);
+    /* font-weight: bold; */
+    text-decoration: none;
+    text-align: center;
+	padding: 0px 90px;
+    margin: 0 14px 0 20px;
+	font-size: 18px;
+}
+
+body > nav ul li a:hover, body > nav ul li a:focus {
+    background-color: var(--Nav-bg);
+    color: var(--main-bg);
+	transition:color 0.90s ease-in-out;
+	border-radius: 2%;
+	opacity: 0.9;
+	-webkit-transform: translate(0, 20px);
+	    -ms-transform: translate(0, 20px);
+	        transform: translate(0, 20px);
+	
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+
+} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+	body > nav ul{
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1600px) {
+	
+} */
+
+/* h1 {
     background-color: unset;
 }
 
@@ -35,14 +156,14 @@ h1,h2,h3,h4,h5,h6:first-letter  {
 
 img {
 	max-width: 5%;
-}
+} */
 
 /* header */
-span {
+/* span { */
 	/* display: none; */
-	text-transform: uppercase;
-}
-
+	/* text-transform: uppercase;
+} */
+/* 
 header > div > h1 {
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -51,9 +172,9 @@ header > div > p {
 	text-align: center;
 	padding-top: 17px;
 	margin-bottom: 40px;
-}
+} */
 /* body */
-body {
+/* body {
 	background-color: var(--body-bg);
 	text-align: left;
 	font-size: 20px;
@@ -101,30 +222,30 @@ body > nav ul li a:hover, body > nav ul li a:focus{
     background-color: var(--header-footer-font);
     color: var(--header-footer-bg);
 	color: var(--nav-color);
-}
+} */
 /* main */
-.profil {
+/* .profil {
 	margin: 10px;
 	padding: 10px;
 }
 
 .profil > p {
 	text-align: left;
-}
+} */
 /* moi */
 
 /* Compétences */
 
 /* portfolio */
-.container {
+/* .container {
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
 .portfolio {
-    background-color: var(--main-bg);
+    background-color: var(--main-bg); */
 	/* color: normal; */
-	font-size: 1.1em;
+	/* font-size: 1.1em;
 	line-height: 2;
 }
 
@@ -138,15 +259,15 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 
 .portfolio img {
 	width: 200px;
-}
+} */
 
 /* scolarite */
 
- .test {
+ /* .test {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; */
 	/* width: 33%; */
-	width: 25%;
+	/* width: 25%;
     margin: 0 auto;
     text-align: center;
     padding: 0;
@@ -160,11 +281,11 @@ body > nav ul li a:hover, body > nav ul li a:focus{
 
 .test > p {
 	font-size: 2rem;
-}
+} */
 /* Centres d'intérêt */
 
 /* Footer */
-footer {
+/* footer {
 	background-color: var(--header-footer-bg);
 	margin: 0;
 	padding: 50px;
@@ -173,4 +294,5 @@ footer {
 footer p {
 	color: rgba(255, 255, 255, 0.8);
 	text-align: center;
-}
+} */
+

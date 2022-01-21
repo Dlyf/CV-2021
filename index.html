@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV 2021</title>
+    <link rel="stylesheet" href="./css/style.css" media="screen" />
+    <link rel="stylesheet" href="/css/fontawesome.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <script src="/js/all.js"></script>
   </head>
 
   <body>
-    <header>
-      <!--
-            Page Header : title
-            - nav : Compétences, expériences, portfolio, scolarité, centres d'intérêt
-        -->
-      <div>
-        <h1>dominique <span>lung yut fong</span></h1>
-        <p>Développeur front-end</p>
+    <header class="center">
+      <!--  Page Header : title
+            - nav : Compétences, expériences, portfolio, scolarité, centres d'intérêt !-->
+      <div class="title">
+        <h1>
+          dominique <span class="dashed">lung</span
+          ><span class="dashed">yut</span><span>fong</span>
+        </h1>
+        <p>Développeur <span class="dashed">front</span>end</p>
+        <div>Information quelconque</div>
       </div>
     </header>
     <nav>
       <ul>
-        <li><a href="./">Accueil</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#porfolio">Porfolio</a></li>
-        <li><a href="#scolarite">Scolarite</a></li>
-        <li><a href="#centresdinterets">Centres d'intérêt</a></li>
+        <li><a href="Accueil.html"><i class="fas fa-home"></i><br />Accueil</a></li>
+        <li><a href="#competences"><i class="fas fa-check"></i><br />Compétences</a></li>
+        <li><a href="#porfolio"><i class="fas fa-folder"></i><br />Réalisations</a></li>
+        <li><a href="#scolarite"><i class="fas fa-school"></i><br />Scolarite</a></li>
+        <li><a href="#centresdinterets"><i class="fas fa-laptop-house"></i><br />Centres d'intérêt</a></li>
       </ul>
     </nav>
-    <main>
-      <!--
+    <!-- <main>
+          ----------------------------------------------------------------------------------------------
             Section de présentation :
             - moi, objectifs
             Section de compétences front-end(framework, bibliothèque) et back-end(bdd) :
@@ -40,7 +44,7 @@
             Section de scolarité :
             - Je veux les liens des écoles
             section de centres d'intérêt :
-        -->
+            ----------------------------------------------------------------------------------------------
       <section class="profil">
         <h1>moi</h1>
         <p>
@@ -51,12 +55,12 @@
         </p>
       </section>
       <section>
-        <!--
+        -------------------------
           Organisation ul li
           Language, framework,
           bibliothèques, BDD,
           Autres
-         -->
+        -------------------------
         <h2>Compétences</h2>
         <img src="./images/HTML5.svg" alt="Logo de html5" />
         <img src="./images/css3.svg" alt="Logo de css3" />
@@ -163,7 +167,6 @@
           <p>2008</p>
         </article>
       </section>
-
       <section>
         <h2>centres d'intérêt</h2>
         <p>
@@ -187,9 +190,9 @@
           Ad facilis unde praesentium?
         </p>
       </section>
-    </main>
-    <footer class="footer clearfix">
-      <p>2015 - 3WA - Exercice 5 : Ila Yoga</p>
+    </main> -->
+    <footer>
+      <p>2022 portfolio dominique lung yut fong</p>
     </footer>
     <script src="./js/bootstrap.bundle.js"></script>
   </body>

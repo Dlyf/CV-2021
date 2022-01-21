@@ -174,12 +174,7 @@ header > div > p {
 	margin-bottom: 40px;
 } */
 /* body */
-<<<<<<< HEAD
 /* body {
-=======
-body {
-	margin:0;
->>>>>>> 44b33c40d128680bcc7d4d0052739fb99f8310ba
 	background-color: var(--body-bg);
 	text-align: left;
 	font-size: 20px;
@@ -302,64 +297,6 @@ section.skills img {
 .test > p {
 	font-size: 2rem;
 } */
-<<<<<<< HEAD
-=======
-
-/* EDUCATION */
-/* #education
-{
-    background: #ECEEF2;
-}
-#education .heading h2
-{
-    color: #d82c2e;
-}
-.education-block
-{
-		width: 80%;
-		margin: 0 auto;
-		text-align: center;
-		padding: 30px;
-		background: #fff;
-		border-radius: 0;
-		border: 1px solid #ccc;
-		height: 385px;
-		margin-bottom: 20px;
-		box-shadow: grey 8px 10px 4px -8px;
-}
-
-.education-block h5
-{
-    color: #888;
-    font-size: 15px;
-    margin-bottom: 15px;
-		font-family: 'Slabo 27px', sans-serif;
-}
-.education-block .glyphicon
-{
-    font-size: 40px;
-}
-.education-block h3
-{
-     color: #d82c2e;
-		 font-family: 'Slabo 27px', sans-serif;
-}
-.education-block h4
-{
-   margin-bottom: 20px;
-	 font-family: 'Cardo', serif;
-
-}
-.education-block p
-{
-  font-weight: bold;
-
-}
-.education-block .red-divider
-{
-    margin-bottom: 20px;
-} */
->>>>>>> 44b33c40d128680bcc7d4d0052739fb99f8310ba
 /* Centres d'intérêt */
 /* section.hobbies {
 	background-color: var(--main-bg);
@@ -376,9 +313,3 @@ footer p {
 	text-align: center;
 } */
 
-<<<<<<< HEAD
-=======
-/* @media(min-width:900px){
-    body > nav 
-} */
->>>>>>> 44b33c40d128680bcc7d4d0052739fb99f8310ba

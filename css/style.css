@@ -149,7 +149,7 @@ img:hover {
   border: 3px solid #dee77a;
 }
 
-/* section skill */
+/* section skill icone */
 .box {
 	background-color: var(--main-bg);
 	box-shadow: 10px 5px 5px rgb(0 0 0 / 50%);
@@ -162,14 +162,14 @@ img:hover {
 	flex-direction: row;
 }
 .skill {
+  max-width: 100%;
 position: relative;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 /* max-width: 60%; */
 height: 280px;
-border: 1px solid black;
-margin: 20px;
+margin: 26px 0 0 40px;
 }
 
 .test {
@@ -206,9 +206,16 @@ margin: 20px;
   color: white;
   /* z-index: auto; */
 }
+.skill-language {
+  border: 2px solid #003060;
+}
 
+.skill-other {
+  border: 2px solid #055C9D;
+}
 .skill-framework {
   margin-top: 300px;
+  border: 2px solid #68BBE3;
 }
 
 .skill-language > .icone,
@@ -287,6 +294,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
   }
+
   .fa-home,
   .fa-check,
   .fa-folder,
@@ -294,16 +302,29 @@ footer {
   .fa-laptop-house {
     display: none;
   }
+
+  .table-skill {
+        display: unset;
+     flex-direction: unset;
+  }
+  .test {
+    margin: 0 auto;
+  }
   .skill {
 	  border: none;
 	  display: flex;
+    height: unset;
+    margin: unset;
 		/* flex-direction: column; */
   }
   
   .skill-name {
 	display: none;
-}
+  }
 
+  .skill-framework {
+    margin-top: unset;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -323,17 +344,69 @@ footer {
   .fa-laptop-house {
     display: none;
   }
+  
+  .table-skill {
+    display: inline-block;
+    flex-direction: unset;
+}
 
   .skill {
-	border: none;
-	/* display: flex; */
-	  
-	}
-	.icone
-	.skill-name {
-		display: none;
-	}
+    margin: 0 auto;
+    height: unset;
+  }
+  .skill-language {
+    border: none;
+  }
+
+  .skill-framework {
+    margin-top: unset;
+    border: 2px solid #68BBE3;
+  }
+
+  .skill-other {
+    border: none;
+  }
+
+  .skill-name {
+    display: none;
+  }
+  
 }
+
+@media screen and (min-width: 961px) {
+  .skill {
+    border: 1px solid green;
+  }
+
+
+  .skill-language {
+    border: 2px solid #003060;
+  }
+
+  .skill-other {
+    border: 2px solid #055C9D;
+  }
+  .skill-framework {
+
+    border: 2px solid #68BBE3;
+  }
+}
+/* 961 et 1250 */
+/* @media (min-width: 1250px) {
+  .table-skill {
+    display: unset;
+    flex-direction: unset;
+  }
+  .skill {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid red;
+  }
+
+  .skill-framework {
+    margin-top: unset;
+  }
+} */
 
 /* @media (max-width: 768px) {  */
 /* body {

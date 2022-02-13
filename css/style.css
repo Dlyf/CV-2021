@@ -26,6 +26,9 @@ Baby Blue
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  border: 5px solid green;
+}
 /* ------ Début Header ------ */
 .center {
   display: flex;
@@ -285,6 +288,9 @@ footer {
 /* No media query for `xs` since this is the default in Bootstrap */
 
 @media screen and (max-width: 480px) {
+  h1, h2 {
+    width: unset;
+  }
   body {
     text-align: center;
     border: 1px solid blue;
@@ -329,6 +335,9 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 480px) and (max-width: 960px) {
+  h1, h2 {
+    width: unset;
+  }
   body {
     text-align: center;
     border: 1px solid red;
@@ -373,9 +382,19 @@ footer {
   
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 961px) and (max-width: 1400px){
+  body {
+    border: 2px solid purple;
+  }
+
+  .table-skill {
+    display: unset;
+    flex-direction: unset;
+  }
+
   .skill {
     border: 1px solid green;
+    height: unset;
   }
 
 
@@ -387,7 +406,7 @@ footer {
     border: 2px solid #055C9D;
   }
   .skill-framework {
-
+    margin-top: unset;
     border: 2px solid #68BBE3;
   }
 }

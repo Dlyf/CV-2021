@@ -369,9 +369,9 @@ footer {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */
+/* No media query for `xs` since this is the default in Bootstrap  480px */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30em) { 
   h1, h2 {
     width: unset;
   }
@@ -415,10 +415,25 @@ footer {
   .skill-framework {
     margin-top: unset;
   }
+
+  /*table */
+
+  table, th, td, tr { 
+		display: block; 
+	}
+
+  .engie-img {
+    margin-right: unset;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 480px) and (max-width: 960px) {
+/* Medium devices (tablets, 768px and up) 480px and  960px*/
+@media screen and (min-width: 30em) and (max-width: 60.063em) {
   h1, h2 {
     width: unset;
   }
@@ -466,7 +481,7 @@ footer {
   
 }
 
-@media screen and (min-width: 961px) and (max-width: 1400px){
+@media screen and (min-width: 60.063em) and (max-width: 1400px){
   body {
     border: 2px solid purple;
   }
@@ -487,6 +502,7 @@ footer {
   }
 
   .skill-other {
+    margin-right: 500px;
     border: 2px solid #055C9D;
   }
   .skill-framework {

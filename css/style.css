@@ -478,6 +478,23 @@ footer {
   .skill-name {
     display: none;
   }
+
+  table, th, td, tr { 
+		display: block; 
+	}
+
+  .engie-img {
+    margin-right: unset;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card {
+    flex: 1;
+  }
   
 }
 

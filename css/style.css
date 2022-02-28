@@ -171,10 +171,10 @@ img:hover {
 position: relative;
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 /* max-width: 60%; */
 height: 280px;
-margin: 26px 0 0 40px;
+/* margin: 26px 0 0 40px; */
 }
 
 .test {
@@ -490,15 +490,17 @@ footer {
   .project-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .project-card {
+    flex-basis: calc(50% - 12px);
     flex: 1;
   }
   
 }
-
-@media screen and (min-width: 60.063em) and (max-width: 1400px){
+/* 960px 1400px */
+@media screen and (min-width: 60.063em) and (max-width: 87.5em){
   body {
     border: 2px solid purple;
   }
@@ -519,7 +521,7 @@ footer {
   }
 
   .skill-other {
-    margin-right: 500px;
+    margin-right: unset;
     border: 2px solid #055C9D;
   }
   .skill-framework {
@@ -527,218 +529,3 @@ footer {
     border: 2px solid #68BBE3;
   }
 }
-/* 961 et 1250 */
-/* @media (min-width: 1250px) {
-  .table-skill {
-    display: unset;
-    flex-direction: unset;
-  }
-  .skill {
-    display: flex;
-    flex-flow: row wrap;
-    border: 1px solid red;
-  }
-
-  .skill-framework {
-    margin-top: unset;
-  }
-} */
-
-/* @media (max-width: 768px) {  */
-/* body {
-		border: 2px solid green;
-	} */
-/* body > nav ul{
-        flex-direction:column;
-        justify-content: space-between;
-    }
-	.fa-home, .fa-check, .fa-folder, .fa-school, .fa-laptop-house {
-		display: none;
-	} */
-
-/* } */
-
-/* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
-    
-} */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-    
-}
-
-@media (min-width: 1600px) {
-	
-} */
-
-/* h1 {
-    background-color: unset;
-}
-
-h2 {
-	text-align: center;
-}
-
-h1,h2,h3,h4,h5,h6:first-letter  {
-    text-transform: capitalize;
-}
-
-img {
-	max-width: 5%;
-} */
-
-/* header */
-/* span { */
-/* display: none; */
-/* text-transform: uppercase;
-} */
-/* 
-header > div > h1 {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-header > div > p {
-	text-align: center;
-	padding-top: 17px;
-	margin-bottom: 40px;
-} */
-/* body */
-/* body {
-	background-color: var(--body-bg);
-	text-align: left;
-	font-size: 20px;
-}
-
-body header {
-	background-color: var(--header-footer-bg);
-	color: var(--header-footer-font);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-body > nav {
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-body  nav ul {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	list-style: none;
-	margin: 0;
-	padding: 10px;
-	background-color: var(--Nav-bg);
-	color: var(--header-footer-font);
-}
-
-body > nav ul li a {
-	color: var(--nav-color);
-}
-
-body > nav ul li a, body > nav ul li a:visited{
-    display: block;
-    line-height: var(--size-navitem);
-	color: var(--nav-color);
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    padding: 0 15px;
-}
-
-body > nav ul li a:hover, body > nav ul li a:focus{
-    background-color: var(--header-footer-font);
-    color: var(--header-footer-bg);
-	color: var(--nav-color);
-} */
-/* main */
-/* .profil {
-	margin: 10px;
-	padding: 10px;
-}
-
-.profil > p {
-	text-align: left;
-} */
-/* moi */
-
-/* Compétences */
-/* section.skills {
-	
-	text-align: center;
-	margin: 50px 40px 50px 40px;
-	padding: 20px 0px 20px 40px;
-	border-radius: 3%;
-	border: 1px solid var(--main-bg);
-	background-color: var(--body-bg);
-}
-
-section.skills img {
-	
-	margin: 25px;
-	border-radius: 50%;
-	border: 1px solid black;
-} */
-/* portfolio */
-/* .container {
-	max-width: 1100px;
-	margin: 0 auto;
-}
-
-.portfolio {
-    background-color: var(--main-bg); */
-/* color: normal; */
-/* font-size: 1.1em;
-	line-height: 2;
-} */
-
-/* .portfolio article {
-	float: left;
-	width: 33%;
-	margin: 0;
-	padding: 3%;
-	text-align: center;
-}
-
-.portfolio img {
-	width: 200px;
-} */
-
-/* scolarite */
-
-/* .test {
-	display: flex;
-	flex-direction: row; */
-/* width: 33%; */
-/* width: 25%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-    background: #fff;
-    border-radius: 0;
-    border: 1px solid #ccc;
-    height: 300px;
-    margin-bottom: 20px;
-    box-shadow: grey 8px 10px 4px -8px;
-}
-
-.test > p {
-	font-size: 2rem;
-} */
-/* Centres d'intérêt */
-/* section.hobbies {
-	background-color: var(--main-bg);
-} */
-/* Footer */
-/* footer {
-	background-color: var(--header-footer-bg);
-	margin: 0;
-	padding: 50px;
-}
-
-footer p {
-	color: rgba(255, 255, 255, 0.8);
-	text-align: center;
-} */

@@ -10,3 +10,7 @@ Blue Grotto
 Baby Blue
 #68BBE3 */
 }
+
+Bootstrap
+https://devicon.dev/
+fontawesome

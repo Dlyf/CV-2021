@@ -401,6 +401,8 @@ footer {
 
   /* border-radius: 50%; */
 }
+
+
 .fa-github {
   /* top: 50%; */
   /* left: 50%; */
@@ -408,7 +410,7 @@ footer {
   /* transition: .5s; */
   font-size: 2.3125em;
   /* position: absolute; */
-  margin: -80px 0 0 40px;
+  margin: -80px 0 0 60px;
 
   color: gray;
   position: absolute;
@@ -418,8 +420,10 @@ footer {
 }
 
 .fa-github:hover {
-  border-radius: 50%;
-  /* border: 10px solid black; */
+  background-color: white;
+  height: 50px;
+  width: 50px;
+
 }
 
 .fa-envelope {
@@ -530,10 +534,7 @@ body > nav ul li a:visited {
     text-align: center;
     /* border: 1px solid red; */
   }
-  body > nav ul {
-    /* flex-direction: column;
-    justify-content: space-between; */
-  }
+ 
   .fa-home,
   .fa-check,
   .fa-folder,
@@ -576,13 +577,7 @@ body > nav ul li a:visited {
     margin-right: unset;
   }
 
-  .project-container {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%; */
-    /* width: 500px; */
-  }
+
 
   .project-card {
     /* display: flex;
@@ -607,9 +602,6 @@ body > nav ul li a:visited {
 }
 /* 960px 1400px */
 @media screen and (min-width: 60.063em) and (max-width: 87.5em){
-  body {
-    /* border: 2px solid purple; */
-  }
 
   .table-skill {
     display: unset;

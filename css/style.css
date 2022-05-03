@@ -297,7 +297,7 @@ h3 {
   text-align: center;
   padding: 20px;
 }
-.project-container {
+/* .project-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -309,7 +309,7 @@ h3 {
   margin: 5px;
   
   height: 250px;
-  /* border: 1px solid black; */
+
   box-shadow: 5px 5px 20px white;
 }
 
@@ -318,16 +318,126 @@ h3 {
   z-index: 1;
 }
 .project-image-project {
-  /* width: 70%; */
+
     width: 100%;
     background-size: cover;
     height: 100%;
-  /* border-radius: 135px; */
+  
+} */
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #eef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0.5rem #777;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.5s;
+}
+
+.project:hover {
+  box-shadow: 1rem 1rem 1rem #777;
+}
+
+.project-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  top: -10rem;
+  z-index: 10;
+  transition: top 0.3s;
+}
+
+.project:hover .project-text {
+  top: 3rem;
+  transition: top 0.3s 0.3s;
+}
+
+.project-name {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: capitalize;
 }
 
 
+.project-technologies {
+  font-size: 1.8rem;
+  color: #0E86D4;
+}
 
+.project-img {
+  /* width: 40rem; */
+  width: 30rem;
+  transition: opacity 0.3s;
+}
 
+.project:hover .project-img {
+  opacity: 0.2;
+}
+
+.project-link {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: 0.3rem solid #0E86D4;
+  padding: 0 1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5rem;
+  transition: bottom 0.3s;
+  text-decoration: none;
+}
+
+.project:hover .project-link {
+  bottom: 10rem;
+  transition: bottom 0.3s 0.3s;
+}
+
+.project-link2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: 0.3rem solid #0E86D4;
+  padding: 0 1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5rem;
+  transition: bottom 0.3s;
+  text-decoration: none;
+}
+
+.project:hover .project-link2 {
+  bottom: 5rem;
+  transition: bottom 0.3s 0.3s;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .formation-card {
   font-family: "Roboto Slab";

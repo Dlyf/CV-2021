@@ -361,7 +361,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.1rem;
   position: absolute;
-  top: -10rem;
+  top: -12rem;
   z-index: 10;
   transition: top 0.3s;
 }
@@ -383,7 +383,10 @@ h3 {
 .project-technologies {
   font-size: 1.8rem;
   color: #0E86D4;
+  
 }
+
+
 
 .project-img {
   /* width: 40rem; */
@@ -545,6 +548,7 @@ footer {
 /* No media query for `xs` since this is the default in Bootstrap  480px */
 
 @media screen and (max-width: 30em) { 
+  .project-technologies {}
   h1, h2 {
     width: unset;
   }

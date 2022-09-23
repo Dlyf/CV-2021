@@ -1,34 +1,50 @@
-// Phase test
-// function fibonacciGenerator(n) {
-//     let Output = [];
-//     if(n === 1) {
-//         Output = [0];
-//         // return Output;
-//     } else if(n === 2) {
-//         Output = [0, 1];
-//     } else {
-//         Output = [0, 1];
-//         for (let i = 2; i<n; i++) {
-//             Output.push(Output[Output.length - 2] + Output[Output.length - 1]);
-//         }
+// Créer un document html contenant:
+// - 1 input de type texte permattent de saisir un caractère
+// - 1 menu de sélection, permettant de sélectionner une des options suivantes: 10,50,100,200,500,10000
+// - 1 bouton
+// - 1 div vide
+
+// Au clic sur le bouton, la valeur saisie dans l'input texte sera reproduite dans le div autant de fois que la valeur sélectionnée dans le
+// champ de sélection
+ // DOM targetting
+// let inputText        = document.querySelector('#inputText');
+//  let selectNum       = document.querySelector('#selectNum');
+//  let btnOk           = document.querySelector('#btnOk');
+//  let divResultat     = document.querySelector('#divResultat');
+
+
+//  // Events
+//  function SelectNombreText() {
+//     divResultat.innerText = ''; // clear input
+//     let concat = '';
+//     let nb = parseInt(selectNum.value.trim());
+//     for (i = 1; i <= nb; i++) {
+//         concat += i+"." + inputText.value + '\n';
 //     }
-//     return Output;
+//      divResultat.innerText = concat;
+//  }
 
-// }
+//  btnOk.addEventListener('click', SelectNombreText);
 
-// Output = fibonacciGenerator(15)
-// console.log(Output);
+const ajoutElement = document.querySelector('#boutonAjouter');
+const h1Element = document.querySelector('#headOne');
+// const liElement = document.querySelector('#list');
 
-let phrase = "hello";
-let adjectif = "super";
-console.log(phrase + adjectif);
+// h1Element.contentEditable = ""
+if (h1Element != h1Element.contentEditable) {
 
-// utiliser un point d'arrêt
-// . réexécuter avec F5 le débogueur
-// la flèche du bas c'est pour rentrer dans les fonctons
-// Exécuter le programme jusqu'au prochain point d'arrêt
-// Isoler les variables qui nous intéressent et les mettres dans la section espion
-// On peut survoler directement dans le code source
-// Modifier la variable à la volée pendant que le programme s'exécute : 
-// aller dans variable et modifier la valeur du variable
-// Launch programme : ${file}
+    h1Element.innerText="Bonjour";
+} else {
+    h1Element.innerText="test";
+}
+
+// let testCss = liElement.style.textDecorationLine ="line-through";
+
+
+function liElement() {
+    const li = document.createElement("li");
+    li.textContent = "Nouvel élément li";
+    liElement.append(li);
+}
+
+ajoutElement.addEventListener('click', liElement);
